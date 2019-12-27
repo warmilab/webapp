@@ -1,0 +1,38 @@
+//team
+
+.team-box {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.team-image {
+    width: 230px;
+    border-radius: 50%;
+    transition: all .5s cubic-bezier(0.27,-0.63,0.76,1.79);
+}
+
+
+.team-info span {
+    display: block;
+    color: #fff
+}
+
+.team-info .team-name {
+    font-family: 'CircularStd-Black',sans-serif;
+    line-height: 22px;
+    font-size: 18px;
+    color: #313131;
+    margin: 22px 0 9px
+}
+
+.team-info .team-position {
+    font-family: 'CircularStd-Book',sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6f6f6f;
+    margin: 0
+}

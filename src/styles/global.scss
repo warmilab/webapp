@@ -1,0 +1,92 @@
+@import "./src/styles/variables.scss";
+@font-face {
+  font-family: AGentleTouch;
+  src: url("../fonts/AGentleTouch.eot");
+  src: local('AGentleTouch'),url(../fonts/AGentleTouch.woff) format('woff'),url(../fonts/AGentleTouch.ttf) format('truetype'),url(../fonts/AGentleTouch.svg) format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  // display: block;
+  color: $primary-color;
+  font-weight: 700;
+
+  &:hover {
+    text-decoration: none;
+    color: $primary-color-dark;
+  }
+}
+
+.section-title {
+  color: #777;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 0.9em;
+
+  &:after {
+    display: block;
+    margin: 17px auto 0;
+    width: 70px;
+    height: 1px;
+    background: $primary-color;
+    content: "";
+  }
+}
+
+.section-heading {
+  margin-top: 42px;
+  margin-bottom: 35px;
+}
+
+.blog-heading {
+  margin-top: 42px;
+  margin-bottom: 10px;
+}
+
+.blog-subheading {
+  line-height: 32px;
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: $terciary-color;
+  font-family: inherit;
+}
+
+.light-text {
+  font-weight: 100;
+  color: #000;
+}
+
+.purple-text {
+  font-weight: 500;
+  color: $primary-color;
+}
+
+.cursive {
+  font-family: AGentleTouch,Sans-Serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: $primary-color;
+}
+
+.gray-bg {
+  background: $gray;
+}
+
+.purple-bg {
+  background: $primary-color;
+}
+
+section {
+  padding: 80px 0;
+  border-bottom: 1px solid $dark-gray;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.small-icon {
+  width: 25px;
+}

@@ -1,0 +1,16 @@
+@import "./src/styles/variables.scss";
+
+footer {
+  padding: 40px 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  .link {
+    width: 50px;
+  }
+
+  .fa-stack {
+    color: $secondary-color;
+  }
+}

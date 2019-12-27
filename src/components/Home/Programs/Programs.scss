@@ -1,0 +1,48 @@
+
+.spotlight {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 0 0 2em 0;
+
+    .image {
+        width: 30%;
+        margin: 0 3em 0 0;
+        display: block
+
+        img {
+            display: block;
+            width: 100%
+        }
+    }
+
+    .content {
+        width: 70%;
+        text-align: left
+    }
+
+}
+
+.spotlight .content>:last-child {
+    margin-bottom: 0
+}
+
+.spotlight:nth-child(2n) {
+    -moz-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse
+}
+
+.spotlight:nth-child(2n) .image {
+    margin: 0 0 0 3em
+}
+
+.spotlight:nth-child(2n) .content {
+    text-align: right
+}

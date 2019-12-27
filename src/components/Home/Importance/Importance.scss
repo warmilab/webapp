@@ -1,0 +1,24 @@
+.nav-link{
+    color: #777;
+
+    &.active, &:hover {
+      border: none;
+      background: 0 0;
+      color: #222;
+    }
+}
+
+.icon-importance {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#importance {
+  .tab-content {
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
