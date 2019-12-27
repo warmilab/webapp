@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import foco from '../../../images/importance/foco2.png';
 import cifra from '../../../images/importance/cifra2.png';
 import maleta from '../../../images/importance/maleta2.png';
-import nina from '../../../images/importance/niña2.png';
+import nina from '../../../images/importance/nina2.png';
 
 import './Importance.scss';
 
