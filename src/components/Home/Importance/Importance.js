@@ -97,18 +97,18 @@ e.preventDefault();
 
       <ul className="nav justify-content-center" role="tablist">
         {
-          importanceList.map((item) => (<li className="nav-item">
-            <a className={`nav-link ${item.status}`} onClick={(e) => selectItem(item.id, e)} href="" aria-controls={item.id} role="tab" data-toggle="tab" aria-expanded="true">
+          importanceList.map((item, key) => (<li className="nav-item" key={key}>
+            <div className={`nav-link ${item.status}`} onClick={(e) => selectItem(item.id, e)} aria-controls={item.id} role="tab" data-toggle="tab" aria-expanded="true">
               <span className="icon-importance">
-                <img className="small-icon foco" src={item.image}/></span>{item.title}
-            </a>
+                <img className="small-icon foco" src={item.image} alt={item.id}/></span>{item.title}
+            </div>
           </li>))
         }
       </ul>
 
       <div className="tab-content">
         {
-          importanceDetail.map((item) => (<div role="tabpanel" aria-labelledby="innovation-tab" className={`tab-pane fade show ${item.status}`} id={item.id}>
+          importanceDetail.map((item) => (<div key={item.id} role="tabpanel" aria-labelledby="innovation-tab" className={`tab-pane fade show ${item.status}`} id={item.id}>
             <p>{item.text}</p>
           </div>))
         }

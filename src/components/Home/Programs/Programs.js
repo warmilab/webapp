@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import React from "react"
 
 import program1 from '../../../images/programs/programa1.png';
@@ -31,7 +30,7 @@ const Programs = ({ siteTitle }) => (
 
     <h1 className="section-title">Programas</h1>
     {
-      data.map((item) => (<div className="spotlight">
+      data.map((item, key) => (<div className="spotlight" key={key}>
         <div className="image">
           <img src={item.image} alt={item.name}/></div>
         <div className="content">

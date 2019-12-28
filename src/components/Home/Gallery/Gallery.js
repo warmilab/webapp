@@ -29,8 +29,8 @@ const Gallery = () => {
       <div className="container">
         <div className="row">
           {
-            data.allFile.edges.map((image, key) => <div class="col">
-              <Img fluid={image.node.childImageSharp.fixed} className="gallery-img" key={key}/>
+            data.allFile.edges.map((image, key) => <div className="col" key={key}>
+              <Img fluid={image.node.childImageSharp.fixed} className="gallery-img"/>
             </div>)
           }
         </div>

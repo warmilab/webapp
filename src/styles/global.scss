@@ -90,3 +90,28 @@ section {
 .small-icon {
   width: 25px;
 }
+
+input[type=submit], .button {
+  -webkit-appearance: none;
+  display: inline-block;
+  padding: 0.7rem;
+  background: $primary-color;
+  color: #fff;
+  border: 2px solid $primary-color;
+  border-radius: 25px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background: $primary-color-dark;
+    border: 2px solid $primary-color-dark;
+    color: #fff;
+  }
+}

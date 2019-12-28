@@ -3,7 +3,7 @@ path: "/blog/ciencia-ficcion-o-ciencia"
 date: "2017-04-17"
 title: "¿Ciencia ficción o ciencia?"
 author: "Ursula Cervantes"
-description: ¿La inteligencia artificial sigue sienfo ciencia ficción o nos está ayudando a cambiar el mundo? ¿Si aprendes a programar, tu podrás ser parte de este cambio?
+description: ¿La inteligencia artificial sigue siendo ciencia ficción o nos está ayudando a cambiar el mundo? ¿Si aprendes a programar, tu podrás ser parte de este cambio?
 cover: "engineers.jpeg"
 categories:
   - engineering
@@ -47,11 +47,13 @@ En primaria, el 74% de niñas están interesadas en ciencias, tecnología, ingen
 Entre 1939 y 1945 se desarrolló la segunda guerra mundial. En esta época los hombres iban a la guerra y las mujeres se vieron obligadas a suplir muchos roles tradicionalmente masculinos en el mundo laboral. Y demostraron que podían ser igual de buenas o ¡incluso mejores!
 
 ![Mujeres que trabajaron como matemáticas y programadoras durante la Segunda Guerra Mundial](./engineers.jpeg "Mujeres que trabajaron como matemáticas y programadoras durante la Segunda Guerra Mundial")
+*Mujeres que trabajaron como matemáticas y programadoras durante la Segunda Guerra Mundial*
 
 ![2001: Conferencia de la IEEE, una conferencia de ingeniería](./oldpeople.jpeg "2001: Conferencia de la IEEE, una conferencia de ingeniería")
+*2001: Conferencia de la IEEE, una conferencia de ingeniería*
 
 ![2011: Curso de programación competitiva en Argentina](./argentinacamp.jpeg "2011: Curso de programación competitiva en Argentina")
-
+*2011: Curso de programación competitiva en Argentina*
 
 Hace 50 años, en Estados Unidos, el 40% de egresados en ciencias de la computación eran mujeres. Hoy solo llegamos al 18%. El número de mujeres que participan en ciencias de la computación está disminuyendo con el paso del tiempo ¿Es que acaso nos dejamos llevar por estereotipos que nos dicen que las mujeres no pueden ser ingenieras?
 
