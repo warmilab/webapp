@@ -41,9 +41,9 @@ Aquí tenemos algunas ideas con las que puedes comenzar:
 
 Si aún no tienes una sección de trabajo voluntario en LinkedIn, [aquí tienes las instrucciones para poder agregarlo.](https://www.linkedin.com/help/linkedin/answer/1284?query=add%20volunteer%20work) Una vez que haz creado esta sección vas a requerir agregar una posición. Puedes seguir el siguiente ejemplo para completar tu experiencia como voluntario.
 
-//INSERTAR SCREESHOT COMO EJEMPLO DE LINKEDIN
+![](./linkedin.png "Ejemplo de experiencia como voluntario en LinkedIn")
 
-> Escribo para el blog de WarmiLab, una publicación online que tiene como objetivo inpirar a la siguiente generación de ingenierias y cambiar la percepción de las mujeres en ingeniería amplificando sus voces.
+> Escribo para el blog de WarmiLab, una publicación online que tiene como objetivo inspirar a la siguiente generación de ingenierías y cambiar la percepción de las mujeres en ingeniería amplificando sus voces.
 > Puedes ver mi trabajo en www.warmilab.com/blog
 
 

@@ -53,7 +53,10 @@ export default function Template({
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>
-          <Footer />
+          {
+            frontmatter.path === '/blog/info' ? '': <Footer />
+          }
+
         </div>
     </Layout>
   )
