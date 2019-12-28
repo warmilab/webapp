@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 
+import ninaLaptop from '../../../images/girl-laptop.jpg';
+
 import './Newsletter.scss';
 
 const Newsletter = () => {
@@ -77,33 +79,36 @@ const Newsletter = () => {
   <section id="newsletter" className="newsletter">
     <form>
       <div className="container">
-        <div className="newsletter-info col-sm col-lg-5">
-          <h2 className="cursive">Únete a la comunidad</h2>
-          <p>
-            Únete como alumno, voluntario o sponsor y sé el primero en enterarte
-            sobre los próximos eventos, recursos para aprender y ¡mucho más!
-          </p>
+        <div className="row">
+          <div className="newsletter-info col-sm col-lg-5">
+            <img src={ninaLaptop} width="300" alt="Niña con laptop"/>
+          </div>
+          <div className="newsletter-info col-sm col-lg-5">
+            <h2 className="cursive">Únete a la comunidad</h2>
+            <p>
+              Únete como alumno, voluntario o sponsor y sé el primero en enterarte
+              sobre los próximos eventos, recursos para aprender y ¡mucho más!
+            </p>
+          </div>
         </div>
-        <div className="newsletter-form">
-          <div className="container">
             <div className="row">
               <div className="col-sm mt-3">
                 <div className="newsletter-input" onClick={(e)=>setActiveLabel(e)}>
-                  <label for="name" className={label.name}>Nombre</label>
+                  <label htmlFor="name" className={label.name}>Nombre</label>
                   <input type="text" name="name" id="name" value={name}
                     onChange={(e)=>{setName(e.target.value); setActiveLabel(e) }}/>
                 </div>
               </div>
               <div className="col-sm mt-3">
                 <div className="newsletter-input" onClick={(e)=>setActiveLabel(e)}>
-                  <label for="lastname" className={label.lastname}>Apellidos</label>
+                  <label htmlFor="lastname" className={label.lastname}>Apellidos</label>
                   <input type="text" name="lastname" id="lastname" value={lastname}
                     onChange={(e)=>{setLastname(e.target.value); setActiveLabel(e)}}/>
                 </div>
               </div>
               <div className="col-sm mt-3">
                 <div className="newsletter-input" onClick={(e)=>setActiveLabel(e)}>
-                  <label for="email" className={label.email}>Email</label>
+                  <label htmlFor="email" className={label.email}>Email</label>
                   <input type="email" name="email" id="email" value={email}
                     onChange={(e)=>{setEmail(e.target.value); setActiveLabel(e)}}/>
                 </div>
@@ -122,8 +127,6 @@ const Newsletter = () => {
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
-            </div>
-          </div>
         </div>
       </div>
     </form>

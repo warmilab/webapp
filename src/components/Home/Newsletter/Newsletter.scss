@@ -1,53 +1,10 @@
 @import "./src/styles/variables.scss";
 
-.newsletter {
-  margin: 12rem 0 0;
-  padding: 12rem 0;
-  background-image: url("../../../images/newsletter-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  position: relative;
-}
-
 .newsletter-info {
-  // width: 40%;
-}
-
-.newsletter-info h2 {
-  color: $primary-color;
-  font-size: 4rem;
-  font-weight: 700;
-}
-
-.newsletter-form {
-  display: table;
-  width: 100%;
-}
-
-.newsletter-submit {
-  input[type=submit] {
-    -webkit-appearance: none;
-    display: inline-block;
-    padding: 0.7rem;
-    background: $primary-color;
-    color: #fff;
-    border: 2px solid $primary-color;
-    border-radius: 25px;
+  h2 {
+    color: $primary-color;
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 1.25;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-
-    &:hover {
-      background: $primary-color-dark;
-      border: 2px solid $primary-color-dark;
-    }
   }
 }
 

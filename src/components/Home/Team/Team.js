@@ -13,38 +13,38 @@ const Team = () => {
       <div className="container">
 
     <h1 className="section-title">Team</h1>
-    <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-4">
-        <div class="team-box">
+    <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-4">
+        <div className="team-box">
 
-          <img class="team-image" src={ursula} alt="Ursula Cervantes" />
+          <img className="team-image" src={ursula} alt="Ursula Cervantes" />
 
-          <div class="team-info">
-            <span class="team-name">Ursula Cervantes</span>
-            <span class="team-position">Co-founder</span>
+          <div className="team-info">
+            <span className="team-name">Ursula Cervantes</span>
+            <span className="team-position">Co-founder</span>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="team-box">
+      <div className="col-4">
+        <div className="team-box">
 
-          <img class="team-image" src={laura} alt="Laura Ponce" />
+          <img className="team-image" src={laura} alt="Laura Ponce" />
 
-          <div class="team-info">
-            <span class="team-name">Laura Ponce</span>
-            <span class="team-position">Co-founder</span>
+          <div className="team-info">
+            <span className="team-name">Laura Ponce</span>
+            <span className="team-position">Co-founder</span>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="team-box">
+      <div className="col-4">
+        <div className="team-box">
 
-          <img class="team-image" src={geraldine} alt="Geraldine Francia" />
+          <img className="team-image" src={geraldine} alt="Geraldine Francia" />
 
-          <div class="team-info">
-            <span class="team-name">Geraldine Francia</span>
-            <span class="team-position">Volunteer Director</span>
+          <div className="team-info">
+            <span className="team-name">Geraldine Francia</span>
+            <span className="team-position">Volunteer Director</span>
           </div>
         </div>
       </div>

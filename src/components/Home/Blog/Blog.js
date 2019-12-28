@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import React from "react"
 import {useStaticQuery, graphql} from 'gatsby'
 
@@ -39,16 +38,16 @@ const Blog = () => {
   return (<section id="blog">
     <div className="container">
       <h1 className="section-title">Blog</h1>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           {
-            post.edges.map((item, key) => (<div class="col-sm">
+            post.edges.map((item, key) => (<div className="col-sm" key={key}>
               <BlogItem data={item.node.frontmatter}></BlogItem>
             </div>))
           }
         </div>
-        <div class="row">
-          <div class="col text-center mt-5">
+        <div className="row">
+          <div className="col text-center mt-5">
             <Link to="/blog">
               Ver más
             </Link>
