@@ -82,6 +82,12 @@ module.exports = {
         ],
       },
     },
+    {
+        resolve: 'gatsby-plugin-mailchimp',
+        options: {
+            endpoint: 'https://warmilab.us12.list-manage.com/subscribe/post?u=5b3bfebc8abb7c1d1306ff894&amp;id=4f747eb855',
+        },
+    },
     'gatsby-plugin-sass',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

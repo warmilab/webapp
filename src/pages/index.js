@@ -9,6 +9,7 @@ import Programs from "../components/Home/Programs"
 import Importance from "../components/Home/Importance"
 import About from "../components/Home/About"
 import Club from "../components/Home/Club"
+import Newsletter from "../components/Home/Newsletter"
 
 import portada from '../images/portada.jpg';
 
@@ -18,7 +19,7 @@ const IndexPage = () => (<Layout>
   <div className="text-center" style={{backgroundColor:"#8a7dc1"}}>
     <img src={portada} alt="Portada WarmiLab" />
   </div>
-  
+
   <About/>
 
   <Importance/>
@@ -32,6 +33,9 @@ const IndexPage = () => (<Layout>
   <Blog/>
 
   <Team/>
+
+  <Newsletter/>
+
 
 </Layout>)
 

@@ -1,0 +1,109 @@
+@import "./src/styles/variables.scss";
+
+.newsletter {
+  margin: 12rem 0 0;
+  padding: 12rem 0;
+  background-image: url("../../../images/newsletter-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+
+.newsletter-info {
+  // width: 40%;
+}
+
+.newsletter-info h2 {
+  color: $primary-color;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.newsletter-form {
+  display: table;
+  width: 100%;
+}
+
+.newsletter-submit {
+  input[type=submit] {
+    -webkit-appearance: none;
+    display: inline-block;
+    padding: 0.7rem;
+    background: $primary-color;
+    color: #fff;
+    border: 2px solid $primary-color;
+    border-radius: 25px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background: $primary-color-dark;
+      border: 2px solid $primary-color-dark;
+    }
+  }
+}
+
+.newsletter-input {
+  label {
+    padding-left: 17px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    color: $primary-color;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+
+    &.--minimized {
+      transform: scale(0.8) translateY(-200%);
+    }
+  }
+
+  input {
+    width: 100%;
+    max-width: 360px;
+    padding: 8px;
+    font-size: 1rem;
+    background-color: transparent!important;
+    color: $primary-color;
+    border: none;
+    border-bottom: 1px solid $primary-color;
+    display: block;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      outline: 0;
+      border-color: $primary-color;
+    }
+  }
+
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  background-color: transparent!important;
+}
