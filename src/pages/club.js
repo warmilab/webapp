@@ -107,7 +107,7 @@ const ClubPage = () => (
                 Existen muchos tipos de lenguajes de programación y aunque no
                 encontremos muchas similitudes a simple vista, los fundamentos
                 son los mismos. <br/><br/>
-                <Link>Ver más</Link>
+              <Link to="club/programming-concepts">Ver más</Link>
               </Card.Text>
             </Card.Body>
           </Card>

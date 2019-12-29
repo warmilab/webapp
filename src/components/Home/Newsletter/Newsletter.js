@@ -79,7 +79,7 @@ const Newsletter = () => {
   <section id="newsletter" className="newsletter">
     <form>
       <div className="container">
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="newsletter-info col-sm col-lg-5">
             <img src={ninaLaptop} width="300" alt="Niña con laptop"/>
           </div>

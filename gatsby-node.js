@@ -36,4 +36,14 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       context: {}, // additional data can be passed via context
     })
   })
+
+  //[To-Do] Make reusable
+  //Programming Concepts - Fundamentals
+  const fundamentalsTemplate = path.resolve(`src/templates/fundamentals.js`)
+
+  createPage({
+    path: '/club/programming-concepts',
+    component: fundamentalsTemplate,
+    context: {}, // additional data can be passed via context
+  })
 }
