@@ -70,6 +70,9 @@ export default function Template({
                   </li>
                 ))
               }
+              <li>
+                <Link to="club/guide/teaching-code-for-beginners/programming-concepts">Conceptos de programación</Link>
+              </li>
             </ul>
           </div>
 
