@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/structure-of-lesson"
 date: "2020-01-01"
 title: "Estructura de una lección"
 author: "Ursula Cervantes"

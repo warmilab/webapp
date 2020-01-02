@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/why-teaching-code"
 date: "2020-01-01"
 title: "¿Por qué enseñar a programar?"
 author: "Ursula Cervantes"

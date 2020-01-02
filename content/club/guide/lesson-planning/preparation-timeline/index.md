@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/preparation-timeline"
 date: "2020-01-01"
 title: "Cronograma de preparación"
 author: "Ursula Cervantes"

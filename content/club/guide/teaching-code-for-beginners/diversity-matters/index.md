@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/diversity-matters"
 date: "2020-01-01"
 title: "¿Por qué importa la diversidad?"
 author: "Ursula Cervantes"

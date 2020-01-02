@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/setting-tone"
 date: "2020-01-01"
 title: "Creando el ambiente"
 author: "Ursula Cervantes"

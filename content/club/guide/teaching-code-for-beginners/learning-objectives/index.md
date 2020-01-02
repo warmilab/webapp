@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/learning-objectives"
 date: "2020-01-01"
 title: "Objetivos de aprendizaje"
 author: "Ursula Cervantes"

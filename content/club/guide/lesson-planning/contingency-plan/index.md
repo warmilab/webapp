@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/contingency-plan"
 date: "2020-01-01"
 title: "Plan de contingencia"
 author: "Ursula Cervantes"

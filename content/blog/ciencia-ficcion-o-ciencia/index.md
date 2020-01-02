@@ -1,5 +1,4 @@
 ---
-path: "/blog/ciencia-ficcion-o-ciencia"
 date: "2017-04-17"
 title: "¿Ciencia ficción o ciencia?"
 author: "Ursula Cervantes"

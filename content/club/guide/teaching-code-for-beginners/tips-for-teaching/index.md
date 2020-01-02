@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/tips-for-teaching"
 date: "2020-01-01"
 title: "Tips para enseñar a programar"
 author: "Ursula Cervantes"

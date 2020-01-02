@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/computacional-thinking"
 date: "2020-01-01"
 title: "Pensamiento computacional"
 author: "Ursula Cervantes"

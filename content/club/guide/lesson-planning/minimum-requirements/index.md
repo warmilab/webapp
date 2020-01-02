@@ -1,5 +1,4 @@
 ---
-path: "/club/guide/minimum-requirements"
 date: "2020-01-01"
 title: "Requerimientos mínimos"
 author: "Ursula Cervantes"
