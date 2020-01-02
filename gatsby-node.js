@@ -116,11 +116,18 @@ exports.createPages = async ({
 
   //[To-Do] Make reusable
   //Programming Concepts - Fundamentals
-  const fundamentalsTemplate = path.resolve(`src/templates/fundamentals.js`)
 
   createPage({
     path: '/club/guide/teaching-code-for-beginners/programming-concepts',
-    component: fundamentalsTemplate,
+    component: path.resolve(`src/templates/fundamentals.js`),
+    context: {}, // additional data can be passed via context
+  });
+
+
+  //Club Guide List
+  createPage({
+    path: '/club/guide',
+    component: path.resolve(`src/templates/clubGuideListTemplate.js`),
     context: {}, // additional data can be passed via context
   });
 

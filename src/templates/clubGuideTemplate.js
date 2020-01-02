@@ -18,21 +18,20 @@ export default function Template({
   return (
     <Layout>
       <SEO title={frontmatter.title} />
-        <div className="blog-post-container mb-5"
+        <div className="mb-5"
           style={{
             margin: `0 auto`,
             maxWidth: 720,
             padding: `10px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}>
-          <div className="blog-post">
+          <div>
             <Header />
 
-            <h1 className="blog-heading text-center">{frontmatter.title}</h1>
-            <h2 className="blog-subheading">{frontmatter.description}</h2>
+            <h1 className="text-center">{frontmatter.title}</h1>
+            <h2>{frontmatter.description}</h2>
 
             <div
-              className="blog-post-content"
               dangerouslySetInnerHTML={{ __html: html }}
             />
           </div>
