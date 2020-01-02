@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
         </Navbar.Brand>
       </Link>
       <Nav defaultActiveKey="/home" as="ul">
-        <Nav.Link as="li"><Link to="/club/info">Club</Link></Nav.Link>
+        <Nav.Link as="li"><Link to="/club">Club</Link></Nav.Link>
         <Nav.Link as="li"><Link to="/blog">Blog</Link></Nav.Link>
       </Nav>
     </Container>

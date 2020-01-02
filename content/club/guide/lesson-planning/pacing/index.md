@@ -3,7 +3,8 @@ path: "/club/guide/pacing"
 date: "2020-01-01"
 title: "Ritmo de aprendizaje"
 author: "Ursula Cervantes"
-description: >_
+description: >-
+
 published: true
 ---
 

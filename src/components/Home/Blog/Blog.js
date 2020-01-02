@@ -3,7 +3,7 @@ import {useStaticQuery, graphql} from 'gatsby'
 
 import {Link} from "gatsby"
 
-import BlogItem from "../../BlogItem"
+import BlogItem from "../../Blog/BlogItem"
 
 const Blog = () => {
   const data = useStaticQuery(graphql `
@@ -16,10 +16,12 @@ const Blog = () => {
       }) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               date(formatString: "MMMM DD, YYYY")
               title
-              path
               cover {
                 childImageSharp {
                   fixed(width: 300, height: 300) {
@@ -42,7 +44,7 @@ const Blog = () => {
         <div className="row">
           {
             post.edges.map((item, key) => (<div className="col-sm" key={key}>
-              <BlogItem data={item.node.frontmatter}></BlogItem>
+              <BlogItem data={item.node.frontmatter} path={item.node.fields.slug}></BlogItem>
             </div>))
           }
         </div>

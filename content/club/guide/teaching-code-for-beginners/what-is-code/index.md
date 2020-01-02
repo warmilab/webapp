@@ -3,7 +3,8 @@ path: "/club/guide/what-is-code"
 date: "2020-01-01"
 title: "¿Qué es programar?"
 author: "Ursula Cervantes"
-description: >_
+description: >-
+
 published: true
 ---
 

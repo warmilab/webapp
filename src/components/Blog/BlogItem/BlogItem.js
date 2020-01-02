@@ -2,11 +2,11 @@ import React from "react"
 
 import './BlogItem.scss';
 
-const BlogItem = ({ data }) => (
+const BlogItem = ({ data, path }) => (
   <div className="blog-item">
     <div className="blog-block">
       <a className="blog-image-link-block w-inline-block" target="_blank" rel="noopener noreferrer"
-         href={data.path} style={{
+         href={`blog${path}`} style={{
           backgroundImage: `url('${data.cover.childImageSharp.fixed.src}')`
         }}>
         <div className="blog-overlay-block">
@@ -16,18 +16,17 @@ const BlogItem = ({ data }) => (
       <div className="blog-content-block">
         <div className="blog-title">
           <a className="blog-block-title" target="_blank" rel="noopener noreferrer"
-             href={data.path}>
+             href={`blog${path}`}>
             {data.title}
           </a>
         </div>
         <a className="learn-more-link-block w-inline-block" target="_blank" rel="noopener noreferrer"
-           href={data.path}>
+           href={`blog${path}`}>
           <div className="learn-more-title">Leer más</div>
         </a>
       </div>
     </div>
   </div>
 )
-
 
 export default BlogItem;

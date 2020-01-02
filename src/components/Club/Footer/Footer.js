@@ -5,10 +5,9 @@ const Footer = () => (
   <div className="text-center mt-5">
     <p> ・  ・  ・ </p>
     <p>
-      ¿Quieres escribir en nuestro blog? Entérate <Link to="/blog/info">aquí</Link> cómo.
+      ¿Quieres abrir un Club WarmiLab en tu ciudad? Entérate <Link to="/club/warmilab">aquí</Link> cómo.
     </p>
   </div>
 )
-
 
 export default Footer

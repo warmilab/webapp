@@ -1,11 +1,9 @@
 ---
-path: "/club/info"
 date: "2019-11-17"
-title: "Club WarmiLab"
+title: ""
 author: "Ursula Cervantes"
 ---
 
-# Warmilab
 Somos una organización que inspira a la siguiente generación de ingenieras a través de talleres de programación gratuitos para niñas entre 12 y 17 años.
 
 # Clubs

@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Card from 'react-bootstrap/Card';
 import SEO from "../components/seo"
+import Header from "../components/Club/Header"
 
-import portada from '../images/club/friends.png';
 import grupo12 from '../images/club/grupo12-14.jpg';
 import grupo15 from '../images/club/grupo15-17.jpg';
 import fundamentos from '../images/club/fundamentos.jpg';
@@ -18,13 +18,10 @@ const ClubPage = () => (
     <SEO title="Club" />
     <div className="container mt-5" style={{maxWidth:'720px'}}>
 
-      <div className="text-center">
-        <img src={portada} alt="Club WarmiLab"/>
-      </div>
+      <Header />
 
       <div className="row mt-3" >
         <div className="col text-center">
-          <h1>Club Warmi<span class="light-text">Lab</span></h1>
 
           <p>Creemos que todos los profesores y voluntarios pueden enseñar a programar.</p>
           <p>

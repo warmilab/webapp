@@ -8,8 +8,9 @@ import Footer from "../components/Blog/Footer"
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
+  debugger;
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter, html, fields } = markdownRemark
   const { siteMetadata }  = site
 
   return (
@@ -32,16 +33,16 @@ export default function Template({
                   <i className="fa fa-user fa-2x"></i>
                 </div>
                 <div className="ml-3">
-                  <div class="cursive">{frontmatter.author}</div>
+                  <div className="cursive">{frontmatter.author}</div>
                   <span style={{color: '#777'}}>{frontmatter.date}</span>
                 </div>
               </div>
               <div style={{display: 'flex', alignItems:'flex-end'}} className="ml-3">
-                <a href={`https://twitter.com/intent/tweet?text=${frontmatter.title}&url=${siteMetadata.url}${frontmatter.path}&hashtags=WarmiLab,engineering`}
+                <a href={`https://twitter.com/intent/tweet?text=${frontmatter.title}&url=${siteMetadata.url}/blog${fields.slug}&hashtags=WarmiLab,engineering`}
                   target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-twitter mr-2"></i>
                 </a>
-                <a href={`https://www.facebook.com/sharer/sharer.php?u=${siteMetadata.url}${frontmatter.path}`}
+                <a href={`https://www.facebook.com/sharer/sharer.php?u=${siteMetadata.url}/blog${fields.slug}`}
                   target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-facebook mr-2"></i>
                 </a>
@@ -54,7 +55,7 @@ export default function Template({
             />
           </div>
           {
-            frontmatter.path === '/blog/info' ? '': <Footer />
+            fields.slug === '/info/' ? '': <Footer />
           }
 
         </div>
@@ -63,9 +64,12 @@ export default function Template({
 };
 
 export const pageQuery = graphql`
-  query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query($slug: String!) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path

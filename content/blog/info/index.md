@@ -1,5 +1,4 @@
 ---
-path: "/blog/info"
 date: "2019-12-26"
 title: "Sé parte de nuestro blog"
 author: "Ursula Cervantes"
@@ -11,7 +10,7 @@ categories:
 keywords:
   - WarmiLab
   - blogging
-published: false
+published: true
 ---
 
 ![Niñas del programa WarmiLab](./write.JPG "Niñas del programa WarmiLab")

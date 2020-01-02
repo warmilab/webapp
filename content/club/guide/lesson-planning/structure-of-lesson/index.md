@@ -3,7 +3,8 @@ path: "/club/guide/structure-of-lesson"
 date: "2020-01-01"
 title: "Estructura de una lección"
 author: "Ursula Cervantes"
-description: >_
+description: >-
+
 published: true
 ---
 
@@ -11,7 +12,7 @@ Cada clase debe seguir el siguiente formato:
 
 **Introducción**
 Se define el objetivo de la clase y los conceptos necesarios para la clase del día.
-Aquí es donde se debe aplicar [los tips para definir el ambiente](/club/guide/setting-tone).
+Aquí es donde se debe aplicar [los tips para definir el ambiente](/club/guide/lesson-planning/setting-tone/).
 
 **Programa por tu cuenta**
 Se introducen las herramientas que se utilizarán durante la clase. Dedica un tiempo

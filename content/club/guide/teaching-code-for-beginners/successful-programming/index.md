@@ -3,7 +3,8 @@ path: "/club/guide/successful-programming"
 date: "2020-01-01"
 title: "Programar exitosamente"
 author: "Ursula Cervantes"
-description: >_
+description: >-
+
 published: true
 ---
 
