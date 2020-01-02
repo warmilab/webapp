@@ -26,9 +26,9 @@ export default ({ data }) => {
 
             <p>
               Los siguientes conceptos son los fundamentales para interactuar con
-              una computadora. Además, estaremos usando <a href="https://code.org" target="_blank">
-              Code.org</a>, <a href="https://thimble.mozilla.org" target="_blank">
-              Mozilla Thimble</a>, <a href="https://scratch.mit.edu" target="_blank">
+              una computadora. Además, estaremos usando <a href="https://code.org" target="_blank" rel="noopener noreferrer">
+              Code.org</a>, <a href="https://thimble.mozilla.org" target="_blank" rel="noopener noreferrer">
+              Mozilla Thimble</a>, <a href="https://scratch.mit.edu" target="_blank" rel="noopener noreferrer">
               Scratch</a>, y otras herramientas para enseñar estos conceptos a
               los niños de una forma divertida y práctica.
             </p>
