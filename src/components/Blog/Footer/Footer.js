@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
   <div className="text-center mt-5">
     <p> ・  ・  ・ </p>
     <p>

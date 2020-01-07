@@ -1,0 +1,21 @@
+@import "./src/styles/variables.scss";
+
+.lesson-header {
+  .title-wrapper {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-color: $primary-color;
+    color: white;
+
+    .title {
+      font-size: 3rem;
+      line-height: 0.9;
+    }
+
+    .author {
+      display: block;
+      font-size: 1rem;
+      letter-spacing: .15rem;
+    }
+  }
+}

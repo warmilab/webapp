@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Card from 'react-bootstrap/Card';
 import SEO from "../components/seo"
+import Header from "../components/Club/Header"
 
-import portada from '../images/club/friends.png';
 import grupo12 from '../images/club/grupo12-14.jpg';
 import grupo15 from '../images/club/grupo15-17.jpg';
 import fundamentos from '../images/club/fundamentos.jpg';
@@ -18,13 +18,10 @@ const ClubPage = () => (
     <SEO title="Club" />
     <div className="container mt-5" style={{maxWidth:'720px'}}>
 
-      <div className="text-center">
-        <img src={portada} alt="Club WarmiLab"/>
-      </div>
+      <Header />
 
       <div className="row mt-3" >
         <div className="col text-center">
-          <h1>Club Warmi<span class="light-text">Lab</span></h1>
 
           <p>Creemos que todos los profesores y voluntarios pueden enseñar a programar.</p>
           <p>
@@ -45,7 +42,7 @@ const ClubPage = () => (
 
       <div className="row mt-5">
         <div className="col-sm">
-          <img src={ninaLaptop}/>
+          <img src={ninaLaptop} alt="Niña con laptop"/>
         </div>
         <div className="col-sm">
           <h2>Regístrate a un Club</h2>
@@ -74,7 +71,7 @@ const ClubPage = () => (
               <Card.Title>12 - 14 años</Card.Title>
               <Card.Text>
                 Talleres diseñados para niñas de entre 12 y 14 años <br/><br/>
-                <Link>Ver más</Link>
+                <Link to="/lesson">Ver más</Link>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -86,7 +83,7 @@ const ClubPage = () => (
               <Card.Title>15 - 17 años</Card.Title>
               <Card.Text>
                 Talleres diseñados para niñas de entre 15 y 17 años <br/><br/>
-                <Link>Ver más</Link>
+              <Link to="/lesson">Ver más</Link>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -100,28 +97,28 @@ const ClubPage = () => (
       <div className="row">
         <div className="col-sm">
           <Card>
-            <Card.Img variant="top" src={fundamentos} />
+            <Card.Img variant="top" src={fundamentos} alt="Laptop"/>
             <Card.Body>
               <Card.Title>Conceptos de programación</Card.Title>
               <Card.Text>
                 Existen muchos tipos de lenguajes de programación y aunque no
                 encontremos muchas similitudes a simple vista, los fundamentos
                 son los mismos. <br/><br/>
-                <Link>Ver más</Link>
+              <Link to="club/guide/teaching-code-for-beginners/programming-concepts">Ver más</Link>
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
         <div className="col-sm">
           <Card>
-            <Card.Img variant="top" src={voluntarios} />
+            <Card.Img variant="top" src={voluntarios} alt="Voluntarios"/>
             <Card.Body>
               <Card.Title>Guía de voluntarios</Card.Title>
               <Card.Text>
                 Hemos recopilado nuestras experiencias enseñando diversos talleres
                 alrededor del país. Revisa nuestros tips para comenzar un club y
                 dictar talleres. <br/><br/>
-                <Link>Ver más</Link>
+              <Link to="/club/guide">Ver más</Link>
               </Card.Text>
             </Card.Body>
           </Card>

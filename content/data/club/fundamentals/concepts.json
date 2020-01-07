@@ -1,0 +1,53 @@
+{
+  "concepts": [
+    {
+      "title": "Algoritmo",
+      "text": "Paso a paso de una serie de operaciones que se ejecuta para resolver un problema."
+    },
+    {
+      "title": "Secuencia",
+      "text": "Una ser de pasos necesario para completar una tarea. Las computadoras leen y ejecutan comandos en orden de arriba hacia abajo."
+    },
+    {
+      "title": "Arreglos",
+      "text": "Variable que puede guardar más de un valor a la vez. Los elementos son ordenados para que se pueda acceder."
+    },
+    {
+      "title": "Condicionales",
+      "text": "Realiza decisiones basadas en condiciones(ejem. Si llueve, abrir el paraguas)"
+    },
+    {
+      "title": "Funciones",
+      "text": "Una sección del programa que ejecuta una tarea en particular. Este conjunto de instrucciones puede ser invocado una y otra vez."
+    },
+    {
+      "title": "Loops",
+      "text": "Ejecutar la misma secuencias varias veces."
+    },
+    {
+      "title": "Operadores",
+      "text": "Expresiones matemáticas y lógicas (ejem. a = b + c)"
+    },
+    {
+      "title": "Remixing",
+      "text": "Tomar un proyecto existente o una idea y modificarla o agregar contenido."
+    },
+    {
+      "title": "Debugging",
+      "text": "Encontrar problemas en el código y resolverlos."
+    },
+    {
+      "title": "Eventos",
+      "text": "Una acción que origina otra acción (ejem. cuando el contador del semáforo llega a 0 cambia de color)"
+    },
+
+    {
+      "title": "Modularización",
+      "text": "Explorar conexiones entre el programa. Partir el programa en pequeñas partes de código."
+    },
+    {
+      "title": "Paralelismo",
+      "text": "Realizar acciones al mismo tiempo."
+    }
+  ]
+}

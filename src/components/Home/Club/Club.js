@@ -24,7 +24,7 @@ const Club = () => {
               ¡Ahora puedes abrir un Club WarmiLab en tu ciudad! <br/><br/>
               El Club WarmiLab nace con la finalidad de democratizar nuestros talleres y facilitar su
               acceso rompiendo barreras geográficas y de conocimiento previo técnico.
-              Entérate más <Link to="/club/info" style={{color:'white'}}> aquí.</Link>
+              Entérate más <Link to="/club/warmilab" style={{color:'white'}}> aquí.</Link>
             </p>
             <p style={{color: 'white'}}>
               Nuestra experiencia con más de 20 talleres realizados en ciudades como

@@ -6,22 +6,25 @@ import Row from 'react-bootstrap/Row';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BlogItem from '../components/BlogItem';
+import BlogItem from '../components/Blog/BlogItem';
 
 const BlogPage = () => {
   const data = useStaticQuery(graphql `
     query BlogQuery {
       allMarkdownRemark(
+        sort: {fields: [frontmatter___date], order: DESC},
         filter: {
-          fileAbsolutePath: {regex: "/(blog)/"  },
+          fileAbsolutePath: {regex: "/(content/blog)/"},
           frontmatter: {published: {eq: true}}
       }) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               date(formatString: "MMMM DD, YYYY")
               title
-              path
               cover {
                 childImageSharp {
                   fixed(width: 300, height: 300) {
@@ -45,7 +48,7 @@ const BlogPage = () => {
       <Row>
         {
           post.edges.map((item) => (<div class="col-sm">
-            <BlogItem data={item.node.frontmatter}></BlogItem>
+            <BlogItem data={item.node.frontmatter}  path={item.node.fields.slug}></BlogItem>
           </div>))
         }
       </Row>

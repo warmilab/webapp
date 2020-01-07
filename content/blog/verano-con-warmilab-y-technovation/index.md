@@ -1,5 +1,4 @@
 ---
-path: "/blog/verano-con-warmilab"
 date: "2017-10-03"
 title: "Mi verano con WarmiLab y Technovation"
 author: "Giovanna Dávila"
