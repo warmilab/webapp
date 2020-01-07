@@ -2,8 +2,8 @@
 date: "2017-04-17"
 title: "¿Ciencia ficción o ciencia?"
 author: "Ursula Cervantes"
-description: ¿La inteligencia artificial sigue siendo ciencia ficción o nos está ayudando a cambiar el mundo? ¿Si aprendes a programar, tu podrás ser parte de este cambio?
-cover: engineers.jpeg
+description: "¿La inteligencia artificial sigue siendo ciencia ficción o nos está ayudando a cambiar el mundo? ¿Si aprendes a programar, tu podrás ser parte de este cambio?"
+cover: ./engineers.jpeg
 categories:
   - engineering
   - WarmiLab
