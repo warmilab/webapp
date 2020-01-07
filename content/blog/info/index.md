@@ -34,6 +34,16 @@ Aquí tenemos algunas ideas con las que puedes comenzar:
 * ¿Con qué estereotipos has tenido para lidiar para convertirte en ingeniera?
 * ¿Qué herramientas y contenido online puedo usar para aprender por mi cuenta?
 
+### ¿Cómo agregar una entrada al blog?
+
+Ser parte de nuestro equipo de escritores es muy sencillo. Puedes compartirnos un **Google Docs a info@warmiab.com** con tu artículo. Debe tener permiso de edición para que nuestros editores lo puedan revisar y publicar.
+
+Si estás familiarizado con **github** y los archivos **markdown**, envíanos un **pull request** a [nuestro repositorio](https://github.com/warmilab/webapp/contenido/blog)
+
+Crea una carpeta y un archivo index.md con metadata. Puedes revisar el formato en los artículos ya publicados. Luego de revisado y aprobado por nuestros editores, será publicado.
+
+Recuerda agregar imágenes y links que complementen tu historia.
+
 ### Añade tu trabajo a LinkedIn
 
 ¿Ya eres escritora, revisas o editas en el blog de Warmilab? ¿Sabías que puedes agregar esta actividad en tu perfil de LinkedIn y resaltar el trabajo de voluntario que haces para nosotros? Cuando agregas tu experiencia de voluntario en LinkedIn, los reclutadores te ven como una persona completa y con buenas habilidades de comunicación.
@@ -46,18 +56,8 @@ Si aún no tienes una sección de trabajo voluntario en LinkedIn, [aquí tienes 
 > Puedes ver mi trabajo en www.warmilab.com/blog
 
 
-### ¿Cómo agregar una entrada al blog?
-
-Ser parte de nuestro equipo de escritores es muy sencillo. Puedes compartirnos un Google Docs a info@warmiab.com con tu artículo. Debe tener permiso de edición para que nuestros editores lo puedan revisar y publicar.
-
-Si estás familiarizado con github y los archivos markdown, envíanos un pull request a nuestro repositorio https://github.com/warmilab/webapp/contenido/blog
-
-Crea una carpeta y un archivo index.md con metadata. Puedes revisar el formato en los artículos ya publicados. Una ves revisado y aprobado por nuestros editores, será publicado.
-
-Recuerda agregar imágenes y links que complementen tu historia.
-
 ### ¿Quieres ser parte de nuestro grupo de editores?
 
-Escríbenos a info@warmilab.com con asunto **Editores WarmiLab**. Cuéntanos tu experiencia como editor de contenidos y/o habilidades de comunicación y redacción.
+Escríbenos a **info@warmilab.com** con asunto **Editores WarmiLab**. Cuéntanos tu experiencia como editor de contenidos y/o habilidades de comunicación y redacción.
 
 Nos pondremos en contacto y te indicaremos los siguientes pasos para formar parte de nuestro equipo 🤗

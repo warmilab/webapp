@@ -113,6 +113,49 @@ exports.createPages = async ({
   });
 
 
+  // Lesson's page creation
+  const lessonTemplate = path.resolve(`src/templates/lessonTemplate.js`)
+  const lessonResult = await graphql(`
+    {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        limit: 1000,
+        filter: {fileAbsolutePath: {regex: "/(content/lessons)/"}}
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `)
+
+  // Handle errors
+  if (lessonResult.errors) {
+    reporter.panicOnBuild(`Error while running GraphQL query.`)
+    return
+  }
+
+  lessonResult.data.allMarkdownRemark.edges.forEach(({
+    node
+  }) => {
+    createPage({
+      path: `lesson${node.fields.slug}`,
+      component: lessonTemplate,
+      context: {
+        // Data passed to context is available
+        // in page queries as GraphQL variables.
+        slug: node.fields.slug,
+      },
+    });
+  });
+
+
+
+
 
   //[To-Do] Make reusable
   //Programming Concepts - Fundamentals
@@ -130,6 +173,5 @@ exports.createPages = async ({
     component: path.resolve(`src/templates/clubGuideListTemplate.js`),
     context: {}, // additional data can be passed via context
   });
-
 
 }

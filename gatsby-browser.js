@@ -4,6 +4,6 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import "./src/styles/global.scss";

@@ -8,7 +8,7 @@ import Footer from "../components/Blog/Footer"
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  debugger;
+
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
   const { frontmatter, html, fields } = markdownRemark
   const { siteMetadata }  = site
@@ -72,7 +72,6 @@ export const pageQuery = graphql`
       }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path
         title
         author
         description

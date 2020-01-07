@@ -13,7 +13,7 @@ Cada clase debe seguir el siguiente formato:
 Se define el objetivo de la clase y los conceptos necesarios para la clase del día.
 Aquí es donde se debe aplicar [los tips para definir el ambiente](/club/guide/lesson-planning/setting-tone/).
 
-**Programa por tu cuenta**
+**Programemos**
 Se introducen las herramientas que se utilizarán durante la clase. Dedica un tiempo
 de la clase para que los estudiantes puedan familiarizarse con la herramienta.
 Propón retos para usar la herramienta y, a medida de lo posible, que descubran cómo

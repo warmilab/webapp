@@ -71,7 +71,7 @@ const ClubPage = () => (
               <Card.Title>12 - 14 años</Card.Title>
               <Card.Text>
                 Talleres diseñados para niñas de entre 12 y 14 años <br/><br/>
-                <Link>Ver más</Link>
+                <Link to="/lesson">Ver más</Link>
               </Card.Text>
             </Card.Body>
           </Card>
@@ -83,7 +83,7 @@ const ClubPage = () => (
               <Card.Title>15 - 17 años</Card.Title>
               <Card.Text>
                 Talleres diseñados para niñas de entre 15 y 17 años <br/><br/>
-                <Link>Ver más</Link>
+              <Link to="/lesson">Ver más</Link>
               </Card.Text>
             </Card.Body>
           </Card>

@@ -1,0 +1,80 @@
+@import "./src/styles/media.scss";
+
+.lesson-sidebar {
+  margin-top: -9rem;
+  padding-left: 1rem;
+
+  .sidebar-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 24px 0 rgba(110,110,110,.19);
+    box-shadow: 0 2px 24px 0 rgba(110,110,110,.19);
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0;
+
+    .sidebar-image {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.lesson-header {
+
+  .lesson-direction-rtl {
+    direction: rtl;
+  }
+
+  .lesson-direction-ltr {
+      direction: ltr;
+  }
+}
+
+@include portable {
+
+  .lesson-sidebar {
+    margin-top: 0;
+    padding: {
+      left: 0;
+      top: 4rem;
+      bottom: 4rem;
+    }
+    font-size: 0.2rem;
+    direction: rtl!important;
+  }
+
+  .sidebar-card {
+    max-width: 320px;
+    display: inline-block;
+    width: calc(33.33%);
+    vertical-align: top;
+    direction: ltr;
+  }
+
+  .sidebar-content-wrapper {
+    display: inline-block;
+    width: calc(66.66% - 3rem);
+    margin-right: 3rem;
+    vertical-align: top;
+    direction: ltr;
+  }
+}
+
+@include belowIpad {
+  .lesson-sidebar {
+    direction: ltr!important;
+  }
+
+  .sidebar-card {
+    width: auto;
+    display: block;
+    margin: {
+      left: auto;
+      right: auto;
+    }
+  }
+
+  .sidebar-content-wrapper {
+    width: auto;
+  }
+}

@@ -1,0 +1,40 @@
+@import "./src/styles/media.scss";
+
+.lesson-info {
+  .sub-info-list-wrapper {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+
+    .sub-info-title {
+      display: block;
+      font-weight: 700;
+      letter-spacing: .2rem;
+      color: #232323;
+      text-transform: uppercase;
+    }
+
+    .sub-info {
+      display: block;
+    }
+  }
+}
+
+@include portable {
+  .sub-info-list-wrapper {
+    padding: {
+      top: 0;
+      bottom: 3rem;
+    }
+  }
+
+  .lesson-info {
+    position: relative;
+    margin-bottom: 2rem;
+  }
+}
+
+@include ipad {
+  .sub-info-list-wrapper {
+    text-align: center;
+  }
+}

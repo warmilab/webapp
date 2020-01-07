@@ -7,12 +7,10 @@ import Footer from "../components/Club/Footer"
 import Header from "../components/Club/Header"
 import Newsletter from "../components/Newsletter"
 
-import portada from '../images/club/friends.png';
-
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
-  const { markdownRemark, site } = data // data.markdownRemark holds your post data
+  const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, fields } = markdownRemark
 
   return (
@@ -56,7 +54,6 @@ export const pageQuery = graphql`
       }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
-        path
         title
         author
         description

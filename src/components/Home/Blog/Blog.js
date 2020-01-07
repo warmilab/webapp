@@ -10,6 +10,7 @@ const Blog = () => {
     query HomeBlogQuery {
       allMarkdownRemark(
         limit: 3,
+        sort: {fields: [frontmatter___date], order: DESC},
         filter: {
           fileAbsolutePath: {regex: "/(blog)/"  },
           frontmatter: {published: {eq: true}}
