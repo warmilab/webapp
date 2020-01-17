@@ -2,8 +2,8 @@
 date: "2019-12-26"
 title: "Sé parte de nuestro blog"
 author: "Ursula Cervantes"
-description: Bienvenidos a WarmiLab ♡. Queremos conocer tus historias, tus experiencias y tu perspectiva del mundo de la ingeniería. ¡Inspiremos a la siguiente generación de ingenieras juntos!
-cover: "write.JPG"
+description: "Bienvenidos a WarmiLab ♡. Queremos conocer tus historias, tus experiencias y tu perspectiva del mundo de la ingeniería. ¡Inspiremos a la siguiente generación de ingenieras juntos!"
+cover: "./write.JPG"
 categories:
   - blog
   - info

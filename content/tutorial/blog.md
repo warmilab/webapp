@@ -2,8 +2,8 @@
 date: "2017-10-02"
 title: "Título del artículo"
 author: "Nombre del autor"
-description: Pequeño resumen o descripción de lo que trata el artículo
-cover: "./imagen.jpg"
+description: "Pequeño resumen o descripción de lo que trata el artículo"
+cover: ./imagen.jpg
 categories:
   - engineering
   - WarmiLab

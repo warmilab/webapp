@@ -2,8 +2,8 @@
 date: "2017-10-03"
 title: "Mi verano con WarmiLab y Technovation"
 author: "Giovanna Dávila"
-description: Giovana no cuenta su experiencia como voluntaria en Warmilab y cómo el equipo WarmiChaska creó su primera aplicación móbil para el concurso de Technovation.
-cover: "clases-liz.jpeg"
+description: "Giovana no cuenta su experiencia como voluntaria en Warmilab y cómo el equipo WarmiChaska creó su primera aplicación móbil para el concurso de Technovation."
+cover: "./clases-liz.jpeg"
 categories:
   - engineering
   - WarmiLab

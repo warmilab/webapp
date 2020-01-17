@@ -14,7 +14,7 @@ subjects:
 keywords:
   - HTML
   - CSS
-cover: "../coding.jpg"
+cover: ./coding.jpg
 published: true
 ---
 
