@@ -3,7 +3,7 @@ date: "2017-10-02"
 title: "¿Modelo, actriz o coder?"
 author: "Ursula Cervantes"
 description: "Rompámos estereotipos. Puedes ser todo los que te propongas, incluso si la sociedad te dice que no. Lyndsey Scott es uno de tantos ejemplos en los que nos podemos inspirar."
-cover: ./Lyndsey-Scott2.jpeg
+cover: "./Lyndsey-Scott2.jpeg"
 categories:
   - engineering
   - WarmiLab
