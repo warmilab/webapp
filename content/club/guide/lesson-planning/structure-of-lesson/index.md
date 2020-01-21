@@ -1,7 +1,7 @@
 ---
-date: "2020-01-01"
-title: "Estructura de una lección"
-author: "Ursula Cervantes"
+date: '2020-01-01'
+title: 'Estructura de una lección'
+author: 'Ursula Cervantes'
 description: >-
 
 published: true
@@ -9,19 +9,19 @@ published: true
 
 Cada clase debe seguir el siguiente formato:
 
-**Introducción**
+**Introducción.**
 Se define el objetivo de la clase y los conceptos necesarios para la clase del día.
 Aquí es donde se debe aplicar [los tips para definir el ambiente](/club/guide/lesson-planning/setting-tone/).
 
-**Programemos**
+**Programemos.**
 Se introducen las herramientas que se utilizarán durante la clase. Dedica un tiempo
 de la clase para que los estudiantes puedan familiarizarse con la herramienta.
 Propón retos para usar la herramienta y, a medida de lo posible, que descubran cómo
 el código les puede ayudar a completar el reto. Antes de darles las solución,
 plantea preguntas que los pueda guiar.
 
-**Actividad**
-Aquí es donde pasamos la mayor parte de la clase. Incluímos actividades como lluvia
+**Actividad.**
+Aquí es donde pasamos la mayor parte de la clase. Incluimos actividades como lluvia
 de ideas para poder personalizar sus proyectos. Mientras los estudiantes se enfocan
 en esta tarea, asegúrate de revisar sus avances y que los voluntarios puedan compartir
 las preguntas y soluciones con todo el grupo.
