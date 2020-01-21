@@ -1,7 +1,7 @@
 ---
-date: "2020-01-01"
-title: "Ritmo de aprendizaje"
-author: "Ursula Cervantes"
+date: '2020-01-01'
+title: 'Ritmo de aprendizaje'
+author: 'Ursula Cervantes'
 description: >-
 
 published: true
@@ -22,7 +22,7 @@ De esta forma se puede dar soporte a este grupo de niñas.
 
 Para no dejar que otras alumnas se atrasen, trata de no asumir nada. Pregunta
 constantemente al grupo cosas como: _"¿Qué es un browser?"_, _"¿Qué es un algoritmo?"_.
-También recuerdales los _shortcuts_ del teclado y repite la información tantas
+También recuérdales los _shortcuts_ del teclado y repite la información tantas
 veces como sea necesario.
 
 Asesora al grupo basándote en sus expresiones faciales o pidiendo feedback con el
@@ -34,5 +34,5 @@ Mientras más específico seas, mejor.
 
 Idealmente, cada clase terminará con un proyecto completo y personalizado. Además,
 podrán presentarlo al grupo. Sin embargo, si esto no es posible, por cualquier razón,
-no hay ¡problema! Lo que queremos es que las niñas tengan una experiencia positiva
+¡no hay problema! Lo que queremos es que las niñas tengan una experiencia positiva
 y que se diviertan en el proceso.
