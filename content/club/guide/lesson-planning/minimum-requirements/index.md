@@ -23,4 +23,4 @@ un resumen sobre un evento histórico, se puede pedir crear una página web.
       forma de mostrar el contenido a los estudiantes
 - [ ] **Acceso a internet** Conexión WiFi para todas las laptops o computadoras.
       Algunos programas como Scratch puede ser utilizados sin conexión a internet, mientras
-      que otras como Code.org y Mozilla Thimble si lo requieren.
+      que otras como Code.org y Glitch si lo requieren.
