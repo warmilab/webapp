@@ -43,7 +43,7 @@ Muchos creen que es la ingeniería de sistemas es la que se encarga de construir
 La base sobre la que funciona la Internet no es otra cosa que una red de comunicaciones por tanto son los ingenieros de telecomunicaciones los que tienen la formación integral para desplegar y operar esta enorme “telaraña” que nos conecta a nivel mundial.
 Así que si quieres dominar la “internet” ya sabes que estudiar.
 
-[![The IT Crowd Series 3 Episode 4: The Internet](./The-Internet.gif)](http://www.youtube.com/watch?v=iDbyYGrswtg 'The IT Crowd Series 3 Episode 4: The Internet')
+![The IT Crowd Series 3 Episode 4: The Internet](./the-internet.jpg)
 
 [Ver Video](http://www.youtube.com/watch?v=iDbyYGrswtg)
 
