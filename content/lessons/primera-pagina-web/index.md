@@ -23,31 +23,19 @@ published: true
 - Construir un página web
 - Conocer los elementos básicos de una página web
 
-#### Currícula Peruana
-
-#### Competencias y capacidades
-
-#### Desempeños
-
-#### Enfoques transversales
-
-### Preparación
-
 #### Materiales
 
 - [Glitch](https://glitch.com/)
 - [HTML Cheat Sheet](https://drive.google.com/open?id=0Byilv0Mt72DXbUpldDlodG85dHc)
 - [CSS Cheat Sheet](https://drive.google.com/open?id=0Byilv0Mt72DXenVUenNIMElwZk0)
-- [Paleta de colores](www.coolors.co)
+- [Paleta de colores](https://www.coolors.co)
 - [Tipos de letras](https://fonts.google.com)
-- [Íconos gratuitos](www.flaticon.com)
+- [Íconos gratuitos](https://www.flaticon.com)
 - [Timer virtual](http://www.timer-tab.com/)
 
 #### Recursos externos
 
 - [Tutorial de Glitch](https://glitch.com/create)
-
-#### Instrumentos de evaluación, rúbricas, feedback
 
 ### Sesión
 
@@ -87,12 +75,8 @@ Preguntar a las estudiantes:
 
 Cada estudiante, de ser posible, muestra su trabajo.
 
-### Reflexión
-
 ### Actividades Offline
 
 Se muestran ejemplos de páginas web simples. Las estudiantes forman grupos de 2
 personas y escriben, en la pizarra o en una hoja, los elementos HTML que corresponde
 a la estructura mostrada en el ejemplo.
-
-### Referencias
