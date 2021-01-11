@@ -1,40 +1,24 @@
-const path = require('path');
-const {
-  createFilePath
-} = require('gatsby-source-filesystem');
+const path = require('path')
+const { createFilePath } = require('gatsby-source-filesystem')
 
-
-exports.onCreateNode = ({
-  node,
-  getNode,
-  actions
-}) => {
-
-  const {
-    createNodeField
-  } = actions;
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
   if (node.internal.type === 'MarkdownRemark') {
     const slug = createFilePath({
       node,
       getNode,
-      basePath: 'pages'
-    });
+      basePath: 'pages',
+    })
     createNodeField({
       node,
       name: 'slug',
       value: slug,
-    });
+    })
   }
-};
+}
 
-exports.createPages = async ({
-  actions,
-  graphql,
-  reporter
-}) => {
-  const {
-    createPage
-  } = actions
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const { createPage } = actions
 
   const blogPostTemplate = path.resolve(`src/templates/blogTemplate.js`)
 
@@ -43,7 +27,7 @@ exports.createPages = async ({
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
         limit: 1000
-        filter: {fileAbsolutePath: {regex: "/(blog)/"}}
+        filter: { fileAbsolutePath: { regex: "/(blog)/" } }
       ) {
         edges {
           node {
@@ -62,9 +46,7 @@ exports.createPages = async ({
     return
   }
 
-  blogResult.data.allMarkdownRemark.edges.forEach(({
-    node
-  }) => {
+  blogResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: `blog${node.fields.slug}`,
       component: blogPostTemplate,
@@ -80,8 +62,8 @@ exports.createPages = async ({
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000,
-        filter: {fileAbsolutePath: {regex: "/(club)/"}}
+        limit: 1000
+        filter: { fileAbsolutePath: { regex: "/(club)/" } }
       ) {
         edges {
           node {
@@ -100,9 +82,7 @@ exports.createPages = async ({
     return
   }
 
-  clubResult.data.allMarkdownRemark.edges.forEach(({
-    node
-  }) => {
+  clubResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: `club${node.fields.slug}`,
       component: clubGuideTemplate,
@@ -111,9 +91,8 @@ exports.createPages = async ({
         // in page queries as GraphQL variables.
         slug: node.fields.slug,
       },
-    });
-  });
-
+    })
+  })
 
   // Lesson's page creation
   const lessonTemplate = path.resolve(`src/templates/lessonTemplate.js`)
@@ -121,8 +100,8 @@ exports.createPages = async ({
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [frontmatter___date] }
-        limit: 1000,
-        filter: {fileAbsolutePath: {regex: "/(content/lessons)/"}}
+        limit: 1000
+        filter: { fileAbsolutePath: { regex: "/(content/lessons)/" } }
       ) {
         edges {
           node {
@@ -141,9 +120,7 @@ exports.createPages = async ({
     return
   }
 
-  lessonResult.data.allMarkdownRemark.edges.forEach(({
-    node
-  }) => {
+  lessonResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: `lesson${node.fields.slug}`,
       component: lessonTemplate,
@@ -152,12 +129,8 @@ exports.createPages = async ({
         // in page queries as GraphQL variables.
         slug: node.fields.slug,
       },
-    });
-  });
-
-
-
-
+    })
+  })
 
   //[To-Do] Make reusable
   //Programming Concepts - Fundamentals
@@ -166,14 +139,19 @@ exports.createPages = async ({
     path: '/club/guide/teaching-code-for-beginners/programming-concepts',
     component: path.resolve(`src/templates/fundamentals.js`),
     context: {}, // additional data can be passed via context
-  });
-
+  })
 
   //Club Guide List
   createPage({
     path: '/club/guide',
     component: path.resolve(`src/templates/clubGuideListTemplate.js`),
     context: {}, // additional data can be passed via context
-  });
+  })
 
+  // Register to workshop
+  createPage({
+    path: '/inscripciones',
+    component: path.resolve(`src/templates/register.js`),
+    context: {}, // additional data can be passed via context
+  })
 }
