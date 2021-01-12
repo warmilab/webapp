@@ -14,7 +14,7 @@ export default () => {
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"
-          scrolling="no"
+          scrolling="auto"
         >
           Loading…
         </iframe>
